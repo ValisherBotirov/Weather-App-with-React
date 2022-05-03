@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+.weatherApp--title {
+  color: rgba(255, 255, 255, 0.792);
+}
+
+.mainWeather--component {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../public/weatherimg.jpg");
+  background-size: cover;
+  background-position: left;
+  overflow: hidden;
+}
+
+/* Search component */
+.search--component {
+  margin-top: 20px;
+}
+
+.prompt {
+  padding: 10px 20px;
+  outline: none;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.527);
+}
+
+.prompt:focus {
+  outline: none;
+}
+
+/* OutputWeather component */
+.weather--component {
+  margin-top: 50px;
+}
+
+.weather--card {
+  width: 26%;
+  height: 200px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+  background-color: rgba(0, 251, 255, 0.193);
+}
+
+.titleDetails {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.weather--info {
+  text-align: left;
+}
+
+.details {
+  color: antiquewhite;
+}
+
+.weather--icon {
+  width: 140px;
+}
+
+.weathericon {
+  width: 100%;
+}
